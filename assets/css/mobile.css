@@ -1,0 +1,11 @@
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+.fotoPerfil {
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+}
