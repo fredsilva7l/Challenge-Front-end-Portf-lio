@@ -1,0 +1,19 @@
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    flex-wrap: wrap;
+}
+
+.navegacao {
+    display: flex;
+}
+
+.itemNavegacao {
+    display: none;
+    margin-right: 1em;
+}
+
+.itemEmail {
+    margin: 1em;
+}
