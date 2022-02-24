@@ -1,19 +1,27 @@
-.cabeçalho {
+.menu {
     display: flex;
     justify-content: space-between;
     background-color: blue;
     flex-wrap: wrap;
 }
 
-.navegacao {
-    display: flex;
+@media screen and (min-width: 0) {
+    .menuLista li {
+        display: none;
+    }
+    .menuLista li:last-child {
+        display: block;
+    }
 }
 
-.itemNavegacao {
-    display: none;
-    margin-right: 1em;
+@media screen and (min-width: 768px) {
+    .menu {
+        display: flex;
+    }
 }
 
-.itemEmail {
-    margin: 1em;
+@media screen and (min-width: 1440px) {
+    .menuItem {
+        display: block;
+    }
 }
