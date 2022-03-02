@@ -1,0 +1,14 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menuLista {
+    display: flex;
+    padding-right: 2rem;
+}
+
+.menuItem {
+    padding-right: 2rem;
+}
